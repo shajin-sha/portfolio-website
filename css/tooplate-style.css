@@ -647,6 +647,12 @@ strong {
 }
 
 @media (max-width: 767px) {
+  .navbar[class*="headroom--not-top"] {
+    height: 6%;
+  }
+  .social-section{
+    padding: 1%;
+  }
   .box-section-1>img {
     opacity: 10%;
   }
