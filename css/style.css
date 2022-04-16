@@ -1,0 +1,70 @@
+.social-section{
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+.box-section-1{
+    background:#c2fbd7;
+    padding: 3%;
+    border-radius: 15px;
+    height: 20%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.box-section-1 > p{
+    max-width: 80%;
+}
+
+.box-section-1 > img{
+    position:absolute;
+    transform: rotate(-20deg);
+    right: -5%;
+    bottom: -20%;
+}
+.box-section-2 > p{
+    max-width: 80%;
+}
+.box-section-2 > img{
+    position:absolute;
+    transform: rotate(-20deg);
+    right: -5%;
+    bottom: -20%;
+}
+
+.box-section-2 > p{
+    max-width: 80%;
+}
+.box-section-2{
+    background:#fbf7c2;
+    padding: 3%;
+    border-radius: 15px;
+    height: 20%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.box-section-3 > p{
+    max-width: 80%;
+}
+.box-section-3 > img{
+    position:absolute;
+    transform: rotate(-20deg);
+    right: -5%;
+    bottom: -20%;
+}
+.box-section-3{
+    background:#fbc2ce;
+    padding: 3%;
+    border-radius: 15px;
+    height: 20%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 5%;
+}
+.box-section-1 > p{
+    max-width: 80%;
+}

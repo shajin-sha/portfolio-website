@@ -1,3 +1,4 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&;900&display=swap'); */
 @import url('http://fonts.cdnfonts.com/css/sf-pro-display?styles=98774,98777,98776,98772,98773,98775,98770,98771,98769');
 
 body {
@@ -28,18 +29,17 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.project-heading-span-two {
+.project-heading-span-two{
   background: #F56772;
   font-size: 110%;
-  background: -webkit-linear-gradient(90deg, #80d0f2, #5c82ff, #c480ff);
-  background: -moz-linear-gradient(90deg, #80d0f2, #5c82ff, #c480ff);
-  background: linear-gradient(90deg, #80d0f2, #5c82ff, #c480ff);
+  background: -webkit-linear-gradient(90deg,#80d0f2,#5c82ff,#c480ff);
+  background: -moz-linear-gradient(90deg,#80d0f2,#5c82ff,#c480ff);
+  background: linear-gradient(90deg,#80d0f2,#5c82ff,#c480ff);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 230%;
 }
-
 p,
 img {
   user-select: none;
@@ -72,7 +72,7 @@ a {
 }
 
 a:hover {
-  color: #147ce5 !important;
+  color: dodgerblue !important;
 }
 
 .navbar-brand .uil {
@@ -134,12 +134,12 @@ strong {
 
 
 .custom-btn.custom-btn-bg {
-  background-color: #147ce5;
+  background-color: dodgerblue;
   color: #ffffff;
 }
 
 .custom-btn.custom-btn-bg:hover {
-  background-color: #147ce5;
+  background-color: dodgerblue;
   color: #ffffff !important;
 }
 
@@ -233,10 +233,10 @@ strong {
 
 
 .navbar[class*="headroom--not-top"] {
-  background: #ffffff9f;
+  background: #ffffffd2;
   border-bottom: 1.2px solid #e7e7e7;
   padding-top: 0;
-  backdrop-filter: blur(7px);
+  backdrop-filter: blur(5px);
   padding-bottom: 0;
 }
 
@@ -340,14 +340,6 @@ strong {
   display: block;
 }
 
-.open-icon::after {
-  font-family: 'unicons';
-  content: '\e9a6';
-  font-size: 100%;
-  font-weight: 300;
-  font-style: normal;
-}
-
 .color-mode {
   font-weight: bold;
   cursor: pointer;
@@ -374,8 +366,7 @@ strong {
 }
 
 .dark-mode {
-  /* background: #1d1f2e; */
-  background: #050718;
+  background: #1d1f2e;
 }
 
 .dark-mode .navbar-light .navbar-nav .nav-link {
@@ -428,24 +419,19 @@ strong {
   left: 38px;
 }
 
-.item {
-  padding: 10%;
-}
-
 .project-info {
-  border-radius: 20px !important;
-  margin: 1%;
-  height: max-content;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-info>img {
   border-radius: 20px !important;
+  padding-bottom: 5%;
 }
 
 .timeline-yr {
-  background-color: #147ce5;
+  background-color: dodgerblue;
   border-radius: 100%;
   position: absolute;
   width: 75px;
@@ -514,7 +500,7 @@ strong {
 
 
 .owl-theme .owl-nav [class*=owl-]:hover {
-  color: #147ce5;
+  color: dodgerblue;
 }
 
 .owl-theme .owl-dots .owl-dot {
@@ -557,11 +543,11 @@ strong {
 
 .contact-form .form-control:hover,
 .contact-form .form-control:focus {
-  border-color: #147ce5;
+  border-color: dodgerblue;
 }
 
 .contact-form .submit-btn {
-  background-color: #147ce5;
+  background-color: dodgerblue;
   border-radius: 50px;
   color: #ffffff;
   font-weight: bold;
@@ -571,23 +557,15 @@ strong {
 }
 
 .Let-talk {
-  /* color: #147ce5; */
-  background: #F56772;
-  font-size: 110%;
-  background: -webkit-linear-gradient(to right, #F56772 48%, #ba6bff 100%);
-  background: -moz-linear-gradient(to right, #F56772 48%, #ba6bff 100%);
-  background: linear-gradient(to right, #F56772 48%, #ba6bff 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: dodgerblue;
 }
 
 .contact-form .submit-btn:hover {
-  background: #147ce5;
+  background: dodgerblue;
 }
 
 .contact-info {
-  background: #147ce5;
+  background: dodgerblue;
   border-radius: 0 0 3px 3px;
   position: relative;
   bottom: 8px;
@@ -619,11 +597,6 @@ strong {
 }
 
 @media (max-width: 991px) {
-
-  .about-image {
-    display: none;
-  }
-
   .full-screen {
     padding-bottom: 4rem;
   }
@@ -647,30 +620,6 @@ strong {
 }
 
 @media (max-width: 767px) {
-  .box-section-1>img {
-    opacity: 10%;
-  }
-
-  .box-section-2>img {
-    opacity: 10%;
-  }
-
-  .box-section-3>img {
-    opacity: 10%;
-  }
-
-  .box-section-1 {
-    padding: 10%;
-  }
-
-  .box-section-2 {
-    padding: 10%;
-  }
-
-  .box-section-3 {
-    padding: 10%;
-  }
-
   h1 {
     font-size: 2.4em;
   }
