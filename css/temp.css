@@ -425,10 +425,6 @@ strong {
   align-items: center;
 }
 
-.project-info>img {
-  border-radius: 20px !important;
-  padding-bottom: 5%;
-}
 
 .timeline-yr {
   background-color: dodgerblue;

@@ -5,7 +5,7 @@
 }
 
 .box-section-1{
-    background:#c2fbd7;
+    background:#bdbdbd;
     padding: 3%;
     border-radius: 15px;
     height: 20%;
@@ -65,6 +65,27 @@
     position: relative;
     margin-bottom: 5%;
 }
+
 .box-section-1 > p{
     max-width: 80%;
+}
+
+.box-section-4{
+    background:#87a1ff;
+    padding: 3%;
+    border-radius: 15px;
+    height: 20%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.box-section-4 > p{
+    max-width: 80%;
+}
+.box-section-4 > img{
+    position:absolute;
+    transform: rotate(-20deg);
+    right: -5%;
+    bottom: -20%;
 }
