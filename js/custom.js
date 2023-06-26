@@ -1,5 +1,18 @@
 (function ($) {
   let width = screen.width;
+  $("body").toggleClass("dark-mode");
+
+  // Scroll a bit down
+  $(window).on("load", function () {
+    setTimeout(function () {
+      $("html, body").animate(
+        {
+          scrollTop: $("#about").offset().top - 10,
+        },
+        1000
+      );
+    }, 100);  
+  });
 
   ("use strict");
 
@@ -10,9 +23,9 @@
   });
 
   // HEADER
-  $(".navbar").headroom();
+  // $(".navbar").headroom();
 
-  // PROJECT CAROUSEL
+  // // PROJECT CAROUSEL
   if (width < 740) {
     $(".owl-carousel").owlCarousel({
       items: 1,
@@ -21,7 +34,7 @@
     });
   } else {
     $(".owl-carousel").owlCarousel({
-      items: 2,
+      items: 3,
       loop: true,
       margin: 0,
     });
