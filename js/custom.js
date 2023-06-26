@@ -2,17 +2,17 @@
   let width = screen.width;
   $("body").toggleClass("dark-mode");
 
-  // Scroll a bit down
-  $(window).on("load", function () {
-    setTimeout(function () {
-      $("html, body").animate(
-        {
-          scrollTop: $("#about").offset().top - 10,
-        },
-        1000
-      );
-    }, 100);  
-  });
+  // // Scroll a bit down
+  // $(window).on("load", function () {
+  //   setTimeout(function () {
+  //     $("html, body").animate(
+  //       {
+  //         scrollTop: $("#about").offset().top - 10,
+  //       },
+  //       1000
+  //     );
+  //   }, 100);  
+  // });
 
   ("use strict");
 
