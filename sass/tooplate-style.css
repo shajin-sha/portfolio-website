@@ -216,6 +216,7 @@ b, strong {
   transition: -webkit-transform 200ms linear;
   transition: transform 200ms linear;
   transition: transform 200ms linear, -webkit-transform 200ms linear;
+  background: #ffffff;
 }
 
 .navbar[class*="-unpinned"] {
