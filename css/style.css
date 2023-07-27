@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .social-section{
     margin: auto;
     width: 90%;
